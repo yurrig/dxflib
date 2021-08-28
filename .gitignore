@@ -1,0 +1,6 @@
+debug/
+release/
+# auto generated:
+.qmake.stash
+dxflib.vcxproj
+dxflib.vcxproj.filters
