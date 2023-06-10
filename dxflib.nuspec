@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>DXFlib</id>
+        <authors>veracioux</authors>
+        <version>0.0.1</version>
+        <description>DXF library.</description>
+        <tags>native nativepackage C++ dxflib</tags>
+    </metadata>
+    <files>
+        <file src="Debug\dxflib.lib"   target="build\native\lib\dxflibd.lib"    />
+        <file src="Release\dxflib.lib" target="build\native\lib\dxflib.lib"     />
+        <file src="src\*"              target="build\native\include"            />
+        <file src="dxflib.props"       target="build\native"                    />
+    </files>
+</package>
